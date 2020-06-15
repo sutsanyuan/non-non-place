@@ -1,2 +1,37 @@
-# non-non-place
-‘non-non-place’ exhibition date｜2020 / 6 / 20 (sat) - 6 / 28 (sun) opening hours｜12:30 - 19:30 opening event｜2020 / 6 / 20 (sat) 16:00 venue｜Taiwan Contemporary Culture Lab C-LAB — Dormitory A The unique space of Dormitory A of Taiwan Contemporary Culture Lab C-LAB is the outcome of an experimental architectural programme, which had intended to merge indoor and outdoor spaces and was eventually transformed into a passageway structure. In this exhibition, 13 artists have rearranged the circumstances based on their own understanding and study of the current state of this obscure yet penetrating space where they named ‘non-non-place’. Their temporary inhabitation of the exhibition space shows the symbolic significance of the former military base C-LAB as a breakpoint within its temporal and spacial context, and how its historic body carries a mysteriously elaborate discipline in a delayed and detached manner.
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/sutsanyuan/non-non-place/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sutsanyuan/non-non-place/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

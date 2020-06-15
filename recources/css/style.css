@@ -536,7 +536,7 @@ header  nav .item a:hover{
         /* linear-gradient(rgba(0, 0, 0, 0.3) 1px, transparent 0),
         linear-gradient(90deg, rgba(0, 0, 0, 0.3) 1px, transparent 0); */
         background-size: 
-        calc(100vmin/40) calc(100vmin/40);
+        calc(100vmin/40) calc(100vmin/40),
         calc(100vmin/40) calc(100vmin/40);
         /* calc(100vmin/40*5) calc(100vmin/40*5),
         calc(100vmin/40*5) calc(100vmin/40*5); */
@@ -720,9 +720,7 @@ header  nav .item a:hover{
         margin: auto;
         height: 50%;
     }
-    .sign > div{
 
-    }
     .sign h1{
         font-weight: bold;
         font-size: 6vmin;

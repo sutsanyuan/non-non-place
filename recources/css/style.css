@@ -290,9 +290,10 @@ header  nav .item a:hover{
     margin: auto;
     height: 40%;
     overflow: auto;
-    scrollbar-base-color: rgba(255, 0, 0, 0.075)
+    -ms-overflow-style: none;
     
 }
+
 .sign .locationAndTime{
 
     display: block;
@@ -300,6 +301,7 @@ header  nav .item a:hover{
     margin: auto;
     height: 20%;
     overflow: auto;
+    -ms-overflow-style: none;
 }
 .sign .artistList{
     display: block;
@@ -307,7 +309,13 @@ header  nav .item a:hover{
     margin: auto;
     height: 40%;
     overflow: auto;
+    -ms-overflow-style: none;
 }
+/* hide the scrollbar */
+.sign .title::-webkit-scrollbar, .sign .locationAndTime::-webkit-scrollbar, .sign .artistList::-webkit-scrollbar{
+    display: none;
+}
+
 .sign h1, .sign h2{
     font-family: 'Noto Sans TC';
     color: rgb(0, 0, 0);
@@ -374,7 +382,10 @@ header  nav .item a:hover{
     display: block;
     overflow: auto;
     margin-top: 5vh;
-
+    -ms-overflow-style: none;
+}
+.conceptContent::-webkit-scrollbar{
+    display: none;
 }
     
 .container p{
@@ -486,12 +497,16 @@ header  nav .item a:hover{
     text-align: left;
     
     overflow: auto;
+    -ms-overflow-style: none;
 
     
 
     display: flex;
     flex-direction: column;
     
+}
+.worksContainer::-webkit-scrollbar{
+    display: none;
 }
 .worksContainer .by4{
     
@@ -504,16 +519,14 @@ header  nav .item a:hover{
     flex-direction: row;
 }
 .worksContainer .row{
-    display: flex;
-  
-    
+    display: flex; 
 }
 
 .worksContainer .column{
     display: flex;
     
-    width: 23.8vmin;
-    height: 23.8vmin;
+    width: 15vmax;
+    height: 15vmax;
     margin: 5vmin;
     
     background-color: #123;

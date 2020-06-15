@@ -339,7 +339,7 @@ header  nav .item a:hover{
     padding: 7% 12.5vw;
     top:0;
 
-    background-image: linear-gradient(rgba(255, 255, 255, 0.144),#123);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.24),#123);
 
     box-sizing: border-box;
 
@@ -618,6 +618,7 @@ header  nav .item a:hover{
     /* concept */
     .container{
         padding: 12.5vh 12.5vw;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.24),rgba(17, 34, 51, 0.897),rgb(17,34,51));
     }
     
     /* info */

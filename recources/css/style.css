@@ -618,7 +618,7 @@ header  nav .item a:hover{
     /* concept */
     .container{
         padding: 12.5vh 12.5vw;
-        background-image: linear-gradient(rgba(255, 255, 255, 0.24),rgba(17, 34, 51, 0.897),rgb(17,34,51));
+        background-image: linear-gradient(rgba(255, 255, 255, 0.24),rgba(17, 34, 51, 0.521),rgb(17,34,51));
     }
     
     /* info */

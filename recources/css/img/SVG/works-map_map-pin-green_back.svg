@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.936" height="57.044" viewBox="0 0 37.936 57.044">
+  <g id="map-pin-green_back" transform="translate(0 0)">
+    <path id="Union_3" data-name="Union 3" d="M976.155-1497.427A18.773,18.773,0,0,1,995.123-1516a18.773,18.773,0,0,1,18.968,18.572c0,13.93-18.968,38.472-18.968,38.472S976.155-1483.5,976.155-1497.427Z" transform="translate(-976.155 1516)" fill="#00a9a5"/>
+    <line id="Line_331" data-name="Line 331" x1="8" y2="8" transform="translate(10.5 10.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_332" data-name="Line 332" x2="8" y2="8" transform="translate(10.5 18.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_333" data-name="Line 333" x2="16" transform="translate(10.5 18.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>

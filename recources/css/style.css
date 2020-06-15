@@ -537,7 +537,7 @@ header  nav .item a:hover{
     margin: auto;
     width: 15vmax;
     height: 15vmax;
-    margin: 5vmin;
+    margin: 3vmax;
     
     background-color: #123;
 }

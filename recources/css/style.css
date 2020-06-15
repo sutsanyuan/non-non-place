@@ -742,7 +742,15 @@ header  nav .item a:hover{
         line-height: 1vmin;
         
     }
-/* concept */
+    /* info */
+    .infoContainer .title{
+        font-size: 1rem;
+    }
+    .content{
+        color: black;
+        font-size: .6rem;
+    }
+    /* concept */
     .conceptTitle{
 
         margin-top: 5vh;

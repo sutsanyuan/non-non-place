@@ -505,6 +505,9 @@ header  nav .item a:hover{
     flex-direction: column;
     
 }
+#menuControl:checked ~ .worksContainer{
+    display: none;
+}
 .worksContainer::-webkit-scrollbar{
     display: none;
 }

@@ -243,7 +243,7 @@ header  nav .item a:hover{
     width: 100vw;
     height: 100%;
     z-index: -1;
-    background-image: url(/recources/css/img/PNG/home_img_bg@3x.png);
+    background-image: url(./img/PNG/home_img_bg@3x.png);
     background-attachment: fixed;
     background-position: center;
     background-position: left;
@@ -255,7 +255,7 @@ header  nav .item a:hover{
     width: 100vw;
     height: 100%;
     z-index: -1;
-    /* background-image: url(/recources/css/img/PNG/home_img_bg@3x.png);
+    /* background-image: url(./img/PNG/home_img_bg@3x.png);
     background-attachment: fixed;
     background-position: center;
     background-position: left;
@@ -273,7 +273,7 @@ header  nav .item a:hover{
     left: 40vw;
     padding:2.5rem 2.5rem 4.5rem;
     background-color: rgba(255, 255, 255, 0);
-    background-image: url(/recources/css/img/SVG/home_box.svg);
+    background-image: url(./img/SVG/home_box.svg);
     background-attachment: local;
     text-align: left;
     background-size: 100%;
@@ -454,18 +454,18 @@ header  nav .item a:hover{
 }
 .infoContainer .column .content span:first-child{
     
-    background-image: url(/recources/css/img/SVG/infor_link_fb.svg);
+    background-image: url(./img/SVG/infor_link_fb.svg);
     
 
 
 }
 .infoContainer .column span:nth-child(2){
 
-    background-image: url(/recources/css/img/SVG/infor_link_ig.svg);
+    background-image: url(./img/SVG/infor_link_ig.svg);
 }
 .infoContainer .column span:nth-child(3){
     
-    background-image: url(/recources/css/img/SVG/infor_link_mail.svg);
+    background-image: url(./img/SVG/infor_link_mail.svg);
 }
 
 
@@ -682,7 +682,7 @@ header  nav .item a:hover{
         width: 100%;
         height: 100vh;
         z-index: -1;
-        background-image: url(/recources/css/img/PNG/home_img_bg@3x.png);
+        background-image: url(./img/PNG/home_img_bg@3x.png);
         background-attachment: fixed;
         background-position: center left;
 

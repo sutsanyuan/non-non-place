@@ -453,19 +453,24 @@ header  nav .item a:hover{
     
 }
 .infoContainer .column .content span:first-child{
-    
+
     background-image: url(./img/SVG/infor_link_fb.svg);
-    
-
-
+}
+.infoContainer .column .content span:first-child:hover{
+    background-image: url(./img/SVG/infor_link_fb_pressed.svg);
 }
 .infoContainer .column span:nth-child(2){
 
     background-image: url(./img/SVG/infor_link_ig.svg);
 }
+.infoContainer .column span:nth-child(2):hover{
+    background-image: url(./img/SVG/infor_link_ig_pressed.svg);
+}
 .infoContainer .column span:nth-child(3){
-    
     background-image: url(./img/SVG/infor_link_mail.svg);
+}
+.infoContainer .column span:nth-child(3):hover{
+    background-image: url(./img/SVG/infor_link_mail_pressed.svg);
 }
 
 

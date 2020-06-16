@@ -485,6 +485,8 @@ header  nav .item a:hover{
 }
 
 /* works */
+
+
 .worksContainer{
     position: fixed;
     top: 15vh;
@@ -493,7 +495,8 @@ header  nav .item a:hover{
     height: 75vh;
 
     margin: auto;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     text-align: left;
     
     overflow: auto;
@@ -501,8 +504,19 @@ header  nav .item a:hover{
 
     
 
+    display: -webkit-box;
+
+    
+
+    display: -ms-flexbox;
+
+    
+
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     
 }
 #menuControl:checked ~ .worksContainer{
@@ -514,20 +528,34 @@ header  nav .item a:hover{
 .worksContainer .by4{
     
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 .worksContainer .by2{
     vertical-align: top;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 .worksContainer .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; 
 }
 
 .worksContainer .column{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: auto;
     width: 15vmax;
@@ -544,7 +572,6 @@ header  nav .item a:hover{
     
     
 }
-
 
 
 
@@ -725,9 +752,14 @@ header  nav .item a:hover{
     }
     .worksContainer .by4{
     
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+    
+        -webkit-box-direction: normal;
+    
+            -ms-flex-direction: column;
+    
+                flex-direction: column;
     }
-
     @media screen and (orientation: landscape){
         
         .sign{

@@ -518,6 +518,7 @@ header  nav .item a:hover{
     flex-direction: row;
 }
 .worksContainer .by2{
+    vertical-align: top;
     margin: auto;
     display: flex;
     flex-direction: row;

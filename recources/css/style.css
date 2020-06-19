@@ -486,6 +486,12 @@ header  nav .item a:hover{
 
 /* works */
 
+#menuControl:checked ~ .worksContainer{
+    display: none;
+}
+.worksContainer::-webkit-scrollbar{
+    display: none;
+}
 
 .worksContainer{
     position: fixed;
@@ -493,86 +499,150 @@ header  nav .item a:hover{
     left: 7vw;
     width: 86vw;
     height: 75vh;
-
-    margin: auto;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    text-align: left;
     
+
+    
+    
+    
+    
+    
+    
+    
+
     overflow: auto;
-    -ms-overflow-style: none;
-
-    
-
-    display: -webkit-box;
-
-    
-
-    display: -ms-flexbox;
-
-    
-
+}
+.worksRow{
+    width: 95%100%;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
     
 }
-#menuControl:checked ~ .worksContainer{
-    display: none;
-}
-.worksContainer::-webkit-scrollbar{
-    display: none;
-}
-.worksContainer .by4{
+
+.wraper{
     
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    
+    margin-top: 10px;;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-}
-.worksContainer .by2{
-    vertical-align: top;
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-}
-.worksContainer .row{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; 
-}
-
-.worksContainer .column{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: auto;
-    width: 15vmax;
-    height: 15vmax;
-    margin: 5vmin;
     
-    background-color: #123;
-}
-
-.worksContainer .column a{
-
-    display: block;
-    margin: auto;
+    margin: 5% 5%;
+    padding: auto;
+    box-sizing: content-box;
     
     
+    align-content: start;
+    
+     width: 15vmax;
+     height: 15vmax;
+    padding: 2.5%;
+
 }
 
+.wraper .content{
+    width: 100%;
+    margin: auto;
+}
+
+.wraper a{
+    
+    
+    font-size: 1.2rem;
+
+}
+
+.w01
+{
+    background-image: url(./img/works/b01.jpg);
+    background-size: 100%;
+}
+
+.w02
+{
+    background-image: url(./img/works/b02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.w03
+{
+    background-image: url(./img/works/b03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.w04{
+    background-color: darkgrey;
+    background-size: cover;
+    background-position: center;
+}
+
+.w05
+{
+    background-image: url(./img/works/b05.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.w06
+{
+    background-image: url(./img/works/b06.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.w07
+{
+    background-image: url(./img/works/b07.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.w08
+{
+    background-image: url(./img/works/b08.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.w09
+{
+    background-image: url(./img/works/09/b09.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.w10
+{
+    background-image: url(./img/works/b10.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.w11
+{
+    background-image: url(./img/works/b11.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.w12
+{
+    background-image: url(./img/works/b12.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.w13
+{
+    background-image: url(./img/works/b13.HEIC);
+    background-size: cover;
+    background-position: center;
+}
 
 
 /* ----------------------------------------------- */
@@ -744,22 +814,11 @@ header  nav .item a:hover{
     }
 
     /* works */
-    .worksContainer .column{
-        
-        width: 32.6vmin;
-        height: 32.6vmin;
-
+    .wraper{
+        width: 30vw;
+        height: 30vw;
     }
-    .worksContainer .by4{
     
-        -webkit-box-orient: vertical;
-    
-        -webkit-box-direction: normal;
-    
-            -ms-flex-direction: column;
-    
-                flex-direction: column;
-    }
     @media screen and (orientation: landscape){
         
         .sign{

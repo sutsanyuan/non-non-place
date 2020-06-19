@@ -658,6 +658,25 @@ header  nav .item a:hover{
     background-position: center;
 }
 
+.mapContainer{
+    
+    background-color: #fff;
+    background-image: url(./img/PNG/works-map_img_bg@3x.png);
+    background-size: 100%;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+
+    position: fixed;
+    top: 15vh;
+    left: 7vw;
+    width: 86vw;
+    height: 75vh;
+
+    margin: auto;
+    box-sizing: border-box;
+    text-align: left;
+}
 
 /* ----------------------------------------------- */
 /* IPAD SETUP */

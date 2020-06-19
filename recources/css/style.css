@@ -522,7 +522,8 @@ header  nav .item a:hover{
 
 .wraper{
     
-    
+    background-color: #555;
+    background-blend-mode: multiply;
     margin-top: 10px;;
     display: flex;
     
@@ -537,6 +538,18 @@ header  nav .item a:hover{
      height: 15vmax;
     padding: 2.5%;
 
+}
+
+.wraper:hover{
+    background-color: white;
+    background-blend-mode: multiply;
+}
+
+.wraper:hover a{
+    font-family:'Noto Sans TC',sans-serif;
+    font-weight: bolder;
+    color: #1861AE;
+    text-decoration: underline;
 }
 
 .wraper .content{
@@ -554,6 +567,7 @@ header  nav .item a:hover{
 .w01
 {
     background-image: url(./img/works/b01.jpg);
+    
     background-size: 100%;
 }
 

@@ -856,6 +856,12 @@ header  nav .item a:hover{
         height: 30vw;
     }
     
+    /* map */
+
+    .mapContainer
+    {
+        background-size: 100%;
+    }
     @media screen and (orientation: landscape){
         
         .sign{

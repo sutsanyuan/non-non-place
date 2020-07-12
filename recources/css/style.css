@@ -512,7 +512,7 @@ header  nav .item a:hover{
     overflow: auto;
 }
 .worksRow{
-    width: 95%100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -527,15 +527,15 @@ header  nav .item a:hover{
     margin-top: 10px;;
     display: flex;
     
-    margin: 5% 5%;
+    margin: 2.5% 2.5%;
     padding: auto;
     box-sizing: content-box;
     
     
     align-content: start;
     
-     width: 15vmax;
-     height: 15vmax;
+     width: 20vmax;
+     height: 20vmax;
     padding: 2.5%;
 
 }
@@ -852,8 +852,9 @@ header  nav .item a:hover{
 
     /* works */
     .wraper{
-        width: 30vw;
-        height: 30vw;
+        width: 35vw;
+        height: 35vw;
+        margin: 2.1% 2.1%;
     }
     
     /* map */

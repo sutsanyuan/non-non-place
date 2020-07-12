@@ -663,8 +663,8 @@ header  nav .item a:hover{
     display: none;
 }
 .mapContainer{
-    border-radius: 2%;
-    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
     background-image: url(./img/PNG/works-map_img_bg@3x.png);
     background-size: auto;
     background-position: center;
